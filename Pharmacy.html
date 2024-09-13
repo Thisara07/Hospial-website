@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="Icon/android-chrome-192x192.png" type ="image/x-icon">
+</head>
+ <!--Start of nav bar-->
+ <header class="header">
+  
+  <img src="Icon/android-chrome-192x192.png" class="logo">
+  
+ <nav class="navbar">
+  <a href="index.html">Home</a>
+  <a href="About.html">About</a>
+  <a href="Services.html">Services</a>
+  <a href="Doctors.html">Doctors</a>
+  <a href="Consulting & Reservation.html">Reservation</a>
+  <a href="Pharmacy.html">Pharmacy</a>
+</nav>
+</header>
+<!--End of nav bar-->
+    <body> <!--Main image -->
+      <section class="banner" style="background-image: url(./Images/healthcare-oco8w27tkw40cp90.jpg);">
+        <div class="container">
+          <div class="banner-content">
+              
+              <h1>Order your desired medicine</h1>
+          
+      </div>
+    </section> 
+
+        <!-- Start of pharmacy form-->
+
+        <section-r>
+          <div class="container-c">
+            <h2>Reservation</h2>
+        
+            <!-- Personal Details Section -->
+            <div class="form-group ">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your name" required><!--The id uniquely identifies an element, which helps in linking labels, styling specific elements, and accessing/manipulating elements via JavaScript.-->
+            </div>                                                 <!--The name attribute in an HTML <input> element plays a critical role in form handling-->
+        
+            <div class="form-group ">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" placeholder="Enter your date of birth" required>
+            </div>
+        
+            <div class="form-group ">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender"  >
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" >
+            </div>
+        
+            <div class="form-group">
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone number" required>
+            </div>
+        
+            <!-- Reservation Details Section -->
+            <div class="form-group">
+              <label for="prescription">Upload Prescription</label>
+              <input type="file" placeholder="prescription" >
+            </div>
+            <div class="form-group">
+                <label for="Medicine">Select Medicine:</label>
+                <select id="medicine" name="medicine"  required>
+                    <option value="medicine0">Select medicine</option>
+                    <option value="medicine1">Aspirin</option>
+                    <option value="medicine2">Ibuprofen</option>
+                    <option value="medicine3">Acetaminophen</option>
+                    <option value="medicine4">Diphenhydramine</option>
+                    <option value="medicine5">Loratadine</option>
+                    <option value="medicine6">Omeprazole</option>
+                    <option value="medicine7">Metformin</option>
+                    <option value="medicine8">Lisinopril</option>
+                    <option value="medicine9">Atorvastatin</option>
+                    <option value="medicine10">Amoxicillin</option>
+                </select>
+            </div>
+        
+            <div class="form-group ">
+                <label for="Amount">Amount:</label>
+                <input type="number"  id="Amount" name="Amount" placeholder="Amount of tablets needed" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="notes">Additional Notes:</label>
+                <textarea id="notes" name="notes" placeholder="Mention if you require every type of medicine in the prescription"></textarea>
+            </div>
+        
+            <button type="submit"><a href="Thank you.html">Submit Reservation</a></button>
+          </div>
+          </div>
+
+    </section-r>
+         <!-- End of pharmacy form-->
+
+        <!--Start of Footer-->
+      <footer class="footer">
+        <div class="container-f">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="/About.html">About us</a></li>
+                <li><a href="Services.html">Services</a>li>
+                <li><a href="/Doctors.html">Doctors</a></li>
+                <li><a href="/Pharmacy.html">Pharmacy</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Consultation</a></li>
+                <li><a href="#">Payment option</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Other</h4>
+              <ul>
+                <li><a href="#">Line 1</a></li>
+                <li><a href="#">Line 2</a></li>
+                <li><a href="#">Line 3</a></li>
+                <li><a href="#">Line 4</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Follow Us</h4>                
+                  <a href="#"><img src="Images/insta logo.png" class="icon"></a>
+                  <a href="#"><img src="Images/Facebook logo.png" class="icon2"></a>
+                  <a href="#"><img src="Images/Linked-in logo.png" class="icon2"></a>
+                  <a href="#"><img src="Images/Twitter-logo-x-.png" class="icon2"></a>           
+                  
+              </div>
+          </div>
+        </div>
+      </footer>
+      <!--End of Footer-->
+</body>
+   
+
