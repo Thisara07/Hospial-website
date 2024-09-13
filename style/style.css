@@ -360,8 +360,7 @@ p {
   display: flex;
   background-color: rgb(255, 255, 255);
   padding: 5px;
-  align-items: center;
-  padding-left: 60px;
+  padding-left: 200px;
 
 }
 
@@ -571,7 +570,7 @@ button:hover, a:hover {
 
 /*end of doctors's gallery*/
 
-/*-------------------------------------------------Consulting and Reservation Page--------------------------------------*/
+
     
 
 
